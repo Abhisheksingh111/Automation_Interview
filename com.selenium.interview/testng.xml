@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite">
+	<test name="CHROME_Browser">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class
+				name="com.selenium.interview.com.selenium.interview.AmazonAccountCreation" />
+		</classes>
+	</test>
+	<test name="FIREFOX_Browser">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class
+				name="com.selenium.interview.com.selenium.interview.AmazonAccountCreation" />
+		</classes>
+	</test>
+	<test name="INTERNETEXPLORER_Browser">
+		<parameter name="browser" value="iexplore" />
+		<classes>
+			<class
+				name="com.selenium.interview.com.selenium.interview.AmazonAccountCreation" />
+		</classes>
+	</test>
+</suite>
